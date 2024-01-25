@@ -37,7 +37,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'css')));
 
 
-// http://localhost:5000/
+// render: 10000/
 app.get('/', function (request, response) {
 	// Render login 
 	response.sendFile(path.join(__dirname + '/public/login.html'));
@@ -46,7 +46,7 @@ app.get('/', function (request, response) {
 app.set('port', 10000)
 
 app.listen(app.get('port'), () => {
-	console.log('localhost:5000')
+	console.log('localhost:10000')
 });
 
 // Route to handle form submission
