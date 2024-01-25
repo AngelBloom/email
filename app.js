@@ -43,7 +43,7 @@ app.get('/', function (request, response) {
 	response.sendFile(path.join(__dirname + '/public/login.html'));
 });
 
-app.set('port', 5000)
+app.set('port', 10000)
 
 app.listen(app.get('port'), () => {
 	console.log('localhost:5000')
